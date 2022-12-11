@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "space grotesk";
+  src: url("../fonts/space_grotesk/subset-SpaceGrotesk-Light.woff"),
+    url("../fonts/space_grotesk/subset-SpaceGrotesk-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "space grotesk";
+  src: url("../fonts/space_grotesk/Space-Grotesk-Medium.woff2"),
+    url("../fonts/space_grotesk/Space-Grotesk-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "space grotesk";
+  src: url("../fonts/space_grotesk/Space-Grotesk-SemiBold.woff"),
+    url("../fonts/space_grotesk/Space-Grotesk-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "space grotesk";
+  src: url("../fonts/space_grotesk/subset-SpaceGrotesk-Bold.woff"),
+    url("../fonts/space_grotesk/subset-SpaceGrotesk-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adelle sans";
+  src: url("../fonts/adelle_sans/adelle-sans-regular-300.woff2"),
+    url("../fonts/adelle_sans/adelle-sans-regular-300.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adelle sans";
+  src: url("../fonts/adelle_sans/subset-AdelleSansCYR-Bold.woff"),
+    url("../fonts/adelle_sans/subset-AdelleSansCYR-Bold.woff2");
+  font-weight: 500;
+  font-style: normal;
+}

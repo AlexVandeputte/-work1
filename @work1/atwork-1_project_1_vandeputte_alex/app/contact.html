@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../app/static/css/reset.css" />
+    <link rel="stylesheet" href="../app/static/css/temp.css" />
+    <link rel="stylesheet" href="../app/static/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper--topnav">
+        <ul class="trans-first">
+          <li><a href="">+ 60 jaar ervaring</a></li>
+          <li><a href="">Flexibele aanpak</a></li>
+          <li><a href="">Transparante communicatie</a></li>
+          <li><a href="">Uitgebreid machinepark</a></li>
+        </ul>
+        <ul class="trans-second">
+          <li><a href="">info@schrauwen.be</a></li>
+          <li><a href="">050 28 17 76</a></li>
+        </ul>
+      </div>
+      <div class="wrapper--botnav">
+        <a href="index.html"
+          ><img src="./static/images/schrauwen-logo.svg" alt="schrauwen-logo"
+        /></a>
+        <ul>
+          <li><a href="aanleg.html">Aanleg</a></li>
+          <li><a href="onderhoud.html">Onderhoud</a></li>
+          <li><a href="referentie.html">Referenties</a></li>
+          <li><a href="#">Contacteer ons</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="hero-wrapper">
+      <div class="hero-content">
+        <div class="hero-content-info">
+          <div class="hero-content-nav">
+            <a href="#">Home</a>
+            <img src="../app/static/images/betweenlogo.svg" alt="logo" />
+            <a href="">Contact</a>
+          </div>
+          <div class="hero-content-text">
+            <h1>Contacteer ons</h1>
+            <p>
+              Wenst u meer informatie over een van onze diensten of wilt u graag
+              een offerte aanvragen? Neem vrijblijvend contact met ons op. We
+              proberen zo snel als mogelijk contact met u op te nemen.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="replace-button"></div>
+      <!-- <div class="hero-button">
+        <div class="hero-button-text">
+          <h5>Wij helpen u graag!</h5>
+          <ul>
+            <li>
+              <img class="hero-button-phone" src="../app/static/images/phone-green.svg" alt="">
+              <a href="">050 28 17 17</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-button-arrow">
+          <img src="../static/images/arrow.svg" alt="" />
+        </div>
+      </div> -->
+    </div>
+
+    <div class="form-wrapper">
+      <div class="hero-content">
+        <div class="form-content">
+          <h2>Stuur ons een bericht</h2>
+          <p>
+            Vul onderstaand formulier in om ons een bericht te sturen. We
+            contacteren je zo snel als mogelijk meer informatie voor een gesprek
+            of afspraak.
+          </p>
+          <form action="#">
+            <div class="form-row">
+              <ul class="form-item">
+                <!-- <fieldset> -->
+                <li>
+                  <label>
+                    Ik zoek informatie als<span class="required">*</span>
+                  </label>
+                </li>
+                <li>
+                  <label class="radio-label">
+                    <input type="radio" required name="type" id="part" />
+                    Particulier
+                  </label>
+                </li>
+                <li>
+                  <label class="radio-label">
+                    <input type="radio" name="type" id="bedrijf" />
+                    Bedrijf/instelling
+                  </label>
+                </li>
+                <li>
+                  <label class="radio-label">
+                    <input type="radio" name="type" id="openbaar" />
+                    Openbaar bestuur
+                  </label>
+                </li>
+                <!-- </fieldset> -->
+              </ul>
+              <ul class="form-item">
+                <li>
+                  <label
+                    >Bedrijfnaam/organisatie
+                    <span class="required">*</span></label
+                  >
+                  <input
+                    type="text"
+                    name="bedrijfnaam"
+                    id="bedrijfnaam"
+                    required
+                    placeholder="Uw bedrijf/organisatie"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="form-row">
+              <ul class="form-item">
+                <li>
+                  <label>Provencie <span class="required">*</span></label>
+                </li>
+                <li>
+                  <select name="provencie" id="provencie" required>
+                    <option value="west">West-Vlaanderen</option>
+                    <option value="oost">Oost-Vlaanderen</option>
+                    <option value="Ant">Antwerpen</option>
+                    <option value="Henegouwen">Henegouwen</option>
+                    <option value="brabant">Vlaams-Brabant</option>
+                    <option value="namen">Luik</option>
+                    <option value="luik">Luik</option>
+                    <option value="Luxumburg">Luxembur</option>
+                    <option value="limburg">Limburg</option>
+                    <option value="waals">Waals-Brabant</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="form-row">
+              <ul class="form-item">
+                <li>
+                  <label>Familienaam <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="familienaam"
+                    id="familienaam"
+                    required
+                    placeholder="Uw familienaam"
+                  />
+                </li>
+              </ul>
+              <ul class="form-item">
+                <li>
+                  <label>Voornaam <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="voornaam"
+                    id="voornaam"
+                    required
+                    placeholder="Uw voornaam"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="form-row">
+              <ul class="form-item">
+                <li>
+                  <label>Telefoonnummer <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="telefoonnummer"
+                    id="telefoonnumer"
+                    required
+                    placeholder="Uw telefoonnummer"
+                  />
+                </li>
+              </ul>
+              <ul class="form-item">
+                <li>
+                  <label>E-mailadres <span class="required">*</span></label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Uw e-mailadres"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="form-long">
+              <label>Uw bericht <span class="required">*</span></label>
+              <textarea
+                name="bericht"
+                id=""
+                rows="4"
+                required
+                placeholder="Uw bericht"
+              ></textarea>
+            </div>
+            <div class="form-long">
+              <input type="checkbox" name="privacy" id="privacy" />
+              <label class="privacy-label" for="privacy">
+                Ik ga akkoord met het
+                <a class="privacy" href="#">Privacybeleid</a>
+              </label>
+            </div>
+            <div class="form-row">
+              <ul class="form-item">
+                <input type="submit" value="Verzenden" />
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper--topfoot">
+        <div class="wrapper--topfoot-main">
+          <ul>
+            <li>
+              <h3>Neem vrijblijven contact met ons op voor een offerte of meer informatie over een van onze diensten.</h3>
+              <div class="topfoot-info-list">
+                <ul>
+                  <li>Geef ons een seintje</li>
+                  <li><a href="">050 28 17 76</a></li>
+                </ul>
+                <ul>
+                  <li>Stuur ons een mailtje</li>
+                  <li><a href="">info@schrauwen.be</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <img src="static/images/footer-img.svg" alt="grasmat">
+        </div>
+      </div>
+      <div class="wrapper--botfoot">
+        <div class="wrapper--botfoot-list">
+          <img src="./static/images/logo-bot.svg" alt="logo" />
+          <ul class="botfoot-link-list">
+            <li>Handige links</li>
+            <li><a href="">Aanleg</a></li>
+            <li><a href="">Onderhoud</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Nieuws</a></li>
+          </ul>
+          <ul class="botfoot-link-list">
+            <li>Over Schrauwen Groen</li>
+            <li><a href="">Werkwijze</a></li>
+            <li><a href="">Historiek</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Jobs</a></li>
+          </ul>
+          <ul class="botfoot-info-list">
+            <li>Contactgegevens</li>
+            <li><a href="">St-Elooistraat 80, 8020 Ruddervoorde</a></li>
+            <li><a href="">info@schrauwen.be</a></li>
+            <li><a href="">050 28 17 76</a></li>
+            <li><a href="">BTW BE 0632 500 871</a></li>
+          </ul>
+        </div>
+        <p class="footer-end">Oorsprinkelijk design van <a class="footer-end" href="">De Formatie</a>. Met trots nagemaakt door Alex Vandeputte voor het vak @work1 in opdracht van Arteveldehogeschool</Var></p>
+      </div>
+    </footer>
+  </body>
+</html>
