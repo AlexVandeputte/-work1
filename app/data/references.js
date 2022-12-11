@@ -1,4 +1,4 @@
-const REFERENCES = [
+const ref = [
   {
     id: "e7d9be12-df57-47f7-8346-626a023b497",
     type: "b2b",
